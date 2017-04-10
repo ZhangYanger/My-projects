@@ -1,0 +1,283 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+#blog{
+	background: url(images/blogBg.jpg) no-repeat;
+	width: 1000px;
+	 background-size: cover;
+	margin: 0 auto;
+}
+ul{
+	list-style-type: none;
+}
+ 
+/*bloghead*/
+#bloghead{
+	width: 60%;
+	 color: #FFF;
+    font-family: "宋体";
+}
+#blogTitle{
+	padding: 80px 80px 40px 80px;
+	
+	
+}
+#bloglink a{
+  text-decoration: none;
+  color: #fff;
+  font-family: "黑体";
+}
+#blognav{
+	height: 50px;
+	padding-left: 80px;
+	padding-bottom: 30px;
+}
+
+#blognavInfo li{
+ float: left;
+ width: 80px;
+ text-align: center;
+ padding-right: 10px;
+}
+#blognavInfo li a{
+	color: #FFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+#blognavInfo li a:hover{
+	color: yellow;
+	 
+}
+
+
+
+ /*<!--网页侧边栏部分-->*/
+ #column_1{
+ 	width: 20%;
+ 	padding: 0 10px 0 20px;
+ 	/*display: inline;
+ 	float: left;
+ 	overflow: hidden;*/
+ 	float: left;
+ }
+ #conn1,#conn2,#conn3{
+ 	background-color: #fff;
+margin-top:20px;
+
+ }
+ #connHead1 h1 ,#connHead3 h1{
+    font-size:16px;
+    padding: 5px 5px;
+ }
+ #conn1Body1 figure figcaption{
+     text-align: center;
+ }
+
+ #conn1Body1,#connBody4{
+ 	  padding: 0 10px;
+ 	  font-size: 14px;
+ 	  
+ }
+ #conn1Body1 figure img{
+ 	width: 100%;
+ 	height: 84%;
+ }
+ #divSpecial{
+ 	padding-top: 40px;
+ }
+ #divSpecial p{
+ 	line-height: 35px;
+
+ }
+ #divSpecial p:first-child{
+      line-height: 25px;
+ }
+ .num{
+ 	font-size: 13px;
+ }
+ #divSpecial a{
+ 	text-decoration: none;
+ 	color: #000;
+ }
+ #divSpecial a:hover{
+ 	 
+ 	color: blue;
+ }
+#conn2Head2 h1, #conn4Head h1{
+    font-size:16px;
+    padding: 5px 5px;
+    display: inline-block;
+ }
+ #edit1,#edit2{
+ 	 float: right;
+ 	 padding-right:20px;
+
+ }
+ #edit1 a,#edit2 a{
+ 	color: #000;
+ 	text-decoration: none;
+ }
+  #edit1 a:hover,#edit2 a:hover{
+ 	color: blue;
+ 	 
+ 	 
+ }
+ #connBody2{
+ 	padding: 10px 25px;
+ 	font-size: 14px;
+ }
+#classList li em{
+  float: right;
+}
+ #classList ul li{
+ 	line-height: 25px;
+ }
+ #classList ul li a{
+ 	text-decoration: none;
+ 	color: #000;
+ }
+ #classList ul li a:hover{
+ 	 
+ 	color: blue;
+ 	 
+ }
+ /*评论*/
+ #zComments{
+   padding: 10px 10px;
+   font-size: 14px;
+ }
+ #zCommentsUl time{
+ 	 
+ 	
+ }
+ #zCommentsUl li{
+ 	line-height: 30px;
+ }
+ #zCommentsUl li a{
+ 	text-decoration: none;
+ 	color: #000;
+ 	
+ }
+ #zCommentsUl li span a{
+font-weight: bold;
+ }
+ #zCommentsUl li a:hover{
+ 	 
+ 	color: blue;
+ }
+ #zCommentsUl li time{
+ 	float: right;
+ 	color: #444;
+ 	font-size: 12px;
+ }
+ #commentsName_txtc_dot3,#commentsName_txtc_dot4{
+ 	color: #444;
+ }
+ div#blogbody{
+	margin: 0;
+	overflow: hidden;
+}
+/*column_2*/
+#column_2{
+	float: left;
+	background-color: #fff;
+	margin-top: 20px;
+	width: 76%;
+
+}
+ 
+#blogList{
+	padding:0 20px;
+}
+.blog_title_h1{
+	padding: 20px 0 10px 0;
+	margin-top: 30px;
+}
+.blog_title1{
+	display: inline-block;
+}
+.blog_title1 a{
+	color: #000;
+	text-decoration: none;
+	
+}
+.blog_title1 a:hover{
+	color: blue;
+ 
+}
+
+#content1{
+	line-height: 25px;
+	padding: 40px 0;
+}
+.articleTag1 a{
+	text-decoration: none;
+	color: #000;
+	font-family: "宋体";
+}
+.articleTag1 a:hover{
+	color: blue;
+ 
+}
+.tag_txtc1{
+	float: left;
+}
+.tag_txtc1 a{
+padding:0 8px; 
+color: #000;
+text-decoration: none;
+display: inline-block;
+}
+.tag_txtc1 a:hover{
+	color: blue;
+ 
+}
+.more1{
+	display: inline-block;
+	float: right;
+}
+.smore1 a{
+  text-decoration: none;
+  color: #000;
+}
+.smore1 a:hover{
+	color: blue;
+ 
+}
+#SG_page{
+	clear: both;
+	float: right;
+	padding-bottom: 40px;
+}
+#SG_pages li{
+	float: left;
+	padding: 3px 5px;
+	
+}
+#SG_pages li a{
+	text-decoration: none;
+	color: #000;
+	background: #ccc;
+	font-size: 12px;
+	padding: 3px 5px;
+	border:1px dotted #000;
+	 
+}
+#SG_pages a:hover{
+	color: blue;
+	background-color: yellow;
+ 
+}
+ #blogfooter{
+ 	width: 100%;
+ 	text-align: center;
+ 	color: #fff;
+ 	padding-bottom: 40px;
+ 	
+ 	
+ }
+  #blogfooter div{
+  	font-size: 14px;
+  	line-height:25px;
+  }

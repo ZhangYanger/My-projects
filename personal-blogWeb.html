@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>博客首页</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+<div id="blog">
+   <!--网页标题部分-->
+   <header id="bloghead">
+      <div id="blogTitle">
+   	    <h1 id="blogname">张杨的博客</h1>
+        <div id="bloglink">
+      <a href="blogWeb.html">blogWeb.html</a>
+        </div>
+   	  </div>
+   	<nav id="blognav">
+   		<ul id="blognavInfo">
+   			<li>
+   				<a href="#" id="on">首页</a>
+   			</li>
+   			<li>
+   				<a href="#">博文目录</a>
+   			</li>
+             <li>
+               <a href="#">摘要视图</a>
+            </li>
+            <li>
+               <a href="#">点我订阅</a>
+            </li>
+   		</ul>
+   	</nav>
+   </header><!--网页标题部分结束-->
+   <!--网页主体部分-->
+   <div id="blogbody">
+    <!--网页侧边栏部分-->
+      <div id="column_1">
+         <aside>
+   	         <section id="conn1">
+   	           <header id="connHead1">
+   	           	  <h1>个人资料</h1>
+   	           </header>
+   	           <div id="conn1Body1">
+   	           	  <div>
+   	           	  	<figure>
+   	           	  		<img src="images/head.jpg" alt="HTML5 Web开发工作室">
+   	           	  		<figcaption>海内存知己123</figcaption>
+   	           	  	</figure>
+
+   	           	  </div>
+   	           	  <div id="divSpecial">
+   	           	  	<p>&nbsp;&nbsp;&nbsp;&nbsp;本人是一名研二的学生，软件工程专业，现在对前端开发有很大的兴趣，希望以后能从事与前端相关的工作</p>
+   	           	  	<p>&nbsp;&nbsp;&nbsp;&nbsp;看过的书籍有：</p>
+   	           	  	<p>
+   	           	  		<a href="#"> 《高级程序设计JavaScript》 </a>
+                        <a href="#">《DIV+CSS网站布局》</a>
+                        <a href="#">《CSS3权威指南》</a>
+   	           	  	</p>
+   	           	  	<p class="num">手机号码：15600520022</p>
+   	           	  	<p class="num">咨询QQ：1241562483</p>
+   	           	  </div>
+   	            </div>
+   	            <div id=connnFoot1></div>
+   	         </section><!-- 工作室介绍结束 -->
+   	         <!-- 分类 -->
+   	         <section id="conn2">
+   	         	<header id="conn2Head2">
+   	         		<h1>分类</h1>
+   	         		<span id="edit1">
+   	         			<a href="javascript:;" onclick="window.CateDialog.show();return false;">[<cite>管理</cite>]</a>
+   	         		</span>
+   	         	</header>
+   	         	<div id="connBody2">
+   	         		<nav id="classList">
+   	         			<ul>
+   	         				<li id="dot1">
+   	         				<a href="#">全部博文</a>
+   	         				<em>(62)</em>
+   	         				</li>
+   	         				<li id="dot2">
+   	         				<a href="#">HTML 5</a>
+   	         				<em>(40)</em>
+   	         				</li>
+   	         				<li id="dot3">
+   	         				<a href="文章显示页面制作.html">CSS3</a>
+   	         				<em>(10)</em>
+   	         				</li>
+   	         				<li id="dot4">
+   	         				<a href="#">JavaScript</a>
+   	         				<em>(8)</em>
+   	         				</li>
+   	         				<li id="dot5">
+   	         				<a href="article-detail.html">常见算法</a>
+   	         				<em>(4)</em>
+   	         				</li>
+   	         			</ul>
+   	         		</nav>
+   	         	</div>
+   	         	<div id=connnFoot1></div>
+   	         </section><!-- 分类结束 -->
+   	         <!-- 评论 -->
+   	         <section id="conn3">
+   	         	<header id="connHead3">
+   	         		<h1>评论</h1>
+   	         	</header>
+   	         	<div id="conn3Body">
+   	         		<nav id="zComments">
+   	         			<ul id="zCommentsUl">
+   	         				 <li id="commentsCell_linedot1">
+   	         				 	<div id="commentsH1">
+   	         				 		<span id="commentsName_txtc_dot1">
+   	         				 			<a href="#">随风</a>
+   	         				 		</span>
+   	         				 		<time datetime="2011-04-01T16:59" pubdate>04-01 16:59</time>
+   	         				 	</div>
+   	         				 	<div id="commentsContants1">
+   	         				 		<div id="commentsContantsTxt1">
+   	         				 			<a href="#">&nbsp;博主，您好。为什么我在url中输入……</a>
+   	         				 		</div>
+   	         				 	</div>
+   	         				 </li>
+   	         				 <li id="commentsCell_linedot2">
+   	         				 	<div id="commentsH2">
+   	         				 		<span id="commentsName_txtc_dot2">
+   	         				 			<a href="#">5408211160</a>
+   	         				 		</span>
+   	         				 		<time datetime="2011-03-01T16:59" pubdate>03-01 12:59</time>
+   	         				 	</div>
+   	         				 	<div id="commentsContants2">
+   	         				 		<div id="commentsContantsTxt2">
+   	         				 			<a href="#">呵呵&nbsp;一定要学会&nbsp;哈哈</a>
+   	         				 		</div>
+   	         				 	</div>
+   	         				 </li>
+   	         				 <li id="commentsCell_linedot3">
+   	         				 	<div id="commentsH3">
+   	         				 		<span id="commentsName_txtc_dot3">
+   	         				 			<a href="#">[匿名]新浪网友</a>
+   	         				 		</span>
+   	         				 		<time datetime="2012-04-01T16:59" pubdate>04-01 16:59</time>
+   	         				 	</div>
+   	         				 	<div id="commentsContants3">
+   	         				 		<div id="commentsContantsTxt3">
+   	         				 			<a href="#">很好的文章。非常感谢楼主。看……</a>
+   	         				 		</div>
+   	         				 	</div>
+   	         				 </li>
+   	         				 <li id="commentsCell_linedot4">
+   	         				 	<div id="commentsH4">
+   	         				 		<span id="commentsName_txtc_dot4">
+   	         				 			<a href="#">[匿名]新浪网友</a>
+   	         				 		</span>
+   	         				 		<time datetime="2013-04-01T16:59" pubdate>04-01 16:59</time>
+   	         				 	</div>
+   	         				 	<div id="commentsContants4">
+   	         				 		<div id="commentsContantsTxt1">
+   	         				 			<a href="#">感谢楼主的回复，重新生成以下……</a>
+   	         				 		</div>
+   	         				 	</div>
+   	         				 </li>
+   	         			</ul>
+   	         		</nav>
+   	         	</div>
+   	         	<div id="connFoot3"></div>
+   	         </section>
+         </aside>
+      </div><!-- column_1结束 -->
+      <!--column_2-->
+      <div id="column_2">
+      	<section id="conn4"> 
+      		<header id="conn4Head">
+      			<h1>分类</h1>
+      			<span id="edit2">
+   	         			<a href="javascript:;" onclick="window.CateDialog.show();return false;">[<cite>管理</cite>]</a>
+   	         	</span>
+      		</header>
+      		<div id="connBody4">
+      			<div id="blogList">
+      				<section>
+      					<header>
+      						<div class="blog_title_h1">
+      							<h1 class="blog_title1">
+      								<a href="#">Html5中新增number元素的number元素的ValueAsNumber属性</a>
+      							</h1>
+
+      							<time datetime="2012-09-23T12:22" pubdate>&nbsp;&nbsp;(2012-09-23 12:22)</time>
+      						</div>
+      						<div class="articleTag1">
+      							<span id="txtb1">分类：</span>
+      							<a href="#">HTML5</a>
+      						</div>
+      					</header>
+      					<div id="content1">
+      						<p>&nbsp;&nbsp;&nbsp;在使用JavaScript脚本对HTML5中number元素进行操作的时候，可以使用valueAsNumber属性很轻松的设置和读取该元素中的数值,读取该元素中的数值读取该元素中的数值</p>
+      						<p>&nbsp;&nbsp;&nbsp;在使用JavaScript脚本对HTML5中number元素进行操作的时候，可以使用valueAsNumber属性很轻松的设置和读取该元素中的数值,读取该元素中的数值读取该元素中的数值读取该元素中的数值</p>
+
+      					</div>
+      					<footer class="tagMore1">
+      						<div class="tag_txtc1">
+      							<a href="#">阅读</a>&nbsp;|&nbsp;
+      							<a href="#">评论</a>&nbsp;|&nbsp;
+      							<a href="#">还没有被转载</a>&nbsp;|&nbsp;
+      							<a href="#">收藏</a> 
+      						</div>
+      						<div class="more1">
+      							<span class="smore1">
+      								<a href="#">查看全文&gt;&gt;</a>
+      							</span>
+      						</div>
+      					</footer>
+      				</section>
+
+      				<section>
+      					<header>
+      						<div class="blog_title_h1">
+      							<h1 class="blog_title1">
+      								<a href="#">在HTML5新增的日期及时间元素中使用step属性</a>
+      							</h1>
+
+      							<time datetime="2012-09-23T12:22" pubdate>&nbsp;&nbsp;(2012-09-23 12:22)</time>
+      						</div>
+      						<div class="articleTag1">
+      							<span id="txtb1">分类：</span>
+      							<a href="#">HTML5</a>
+      						</div>
+      					</header>
+      					<div id="content1">
+      						<p>&nbsp;&nbsp;&nbsp;在使用JavaScript脚本对HTML5中number元素进行操作的时候，可以使用valueAsNumber属性很轻松的设置和读取该元素中的数在使用JavaScript脚本对HTML5中number元素进行操作的时候，可以使用valueAsNumber属性很轻松的设置和读取该元素中的数值</p>
+      					</div>
+      					<footer class="tagMore1">
+      						<div class="tag_txtc1">
+      							<a href="#">阅读</a>&nbsp;|&nbsp;
+      							<a href="#">评论</a>&nbsp;|&nbsp;
+      							<a href="#">还没有被转载</a>&nbsp;|&nbsp;
+      							<a href="#">收藏</a> 
+      						</div>
+      						<div class="more1">
+      							<span class="smore1">
+      								<a href="#">查看全文&gt;&gt;</a>
+      							</span>
+      						</div>
+      					</footer>
+      				</section>
+
+      				<section>
+      					<header>
+      						<div class="blog_title_h1">
+      							<h1 class="blog_title1">
+      								<a href="#">如何将datetime元素与datetime-local元素应用在web程序……</a>
+      							</h1>
+
+      							<time datetime="2012-09-23T12:22" pubdate>&nbsp;&nbsp;(2012-09-23 12:22)</time>
+      							 
+      						</div>
+      						<div class="articleTag1">
+      							<span id="txtb1">分类：</span>
+      							<a href="#">HTML5</a>
+      						</div>
+      					</header>
+      					<div id="content1">
+      						<p>&nbsp;&nbsp;在使用JavaScript脚本对HTML5中number元素进行操作的时候，可以使用valueAsNumber属性很轻松的设置和读取该元素中的数值</p> 
+      						<p><strong>&nbsp;&nbsp;1.datetime元素的值</strong></p>
+      						<p>&nbsp;&nbsp;在使用JavaScript脚本对HTML5中number元素进行操作的时候，可以使用valueAsNumber属性很轻松的设置和读取该元素中的数值.在使用JavaScript脚本对HTML5中number元素进行操作的时候，可以使用valueAsNumber属性很轻松的设置和读取该元素中的数值.在使用JavaScript脚本对HTML5中number元素进行操作的时候，可以使用valueAsNumber属性很轻松的设置和读取该元素中的数值</p>
+      					</div>
+      					<footer class="tagMore1">
+      						<div class="tag_txtc1">
+      							<a href="#">阅读</a>&nbsp;|&nbsp;
+      							<a href="#">评论</a>&nbsp;|&nbsp;
+      							<a href="#">还没有被转载</a>&nbsp;|&nbsp;
+      							<a href="#">收藏</a> 
+      						</div>
+      						<div class="more1">
+      							<span class="smore1">
+      								<a href="#">查看全文&gt;&gt;</a>
+      							</span>
+      						</div>
+      					</footer>
+      				</section>
+
+      				<section>
+      					<header>
+      						<div class="blog_title_h1">
+      							<h1 class="blog_title1">
+      								<a href="#">ASP.NET&nbsp;MVC3书店--第四节&nbsp;模型与数据库访问</a>
+      							</h1>
+
+      							<time datetime="2012-09-23T12:22" pubdate>&nbsp;&nbsp;(2012-09-23 12:22)</time>
+      						</div>
+      						<div class="articleTag1">
+      							<span id="txtb1">分类：</span>
+      							<a href="#">HTML5</a>
+      						</div>
+      					</header>
+      					<div id="content1">
+      						<p>&nbsp;&nbsp;在使用JavaScript脚本对HTML5中number元素进行操作的时候，可以使用valueAsNumber属性很轻松的设置和读取该元素中的数值 
+      						 在使用JavaScript脚本对HTML5中number元素进行操作的时候，可以使用valueAsNumber属性很轻松的设置和读取该元素中的数值</p>
+      						 <p>
+      						 <strong>
+      						 4.1
+      						 	<span>&nbsp;&nbsp;&nbsp;</span>使用Entity Framework code-first<span></span>
+      						 </strong>
+      						 </p>
+      					</div>
+      					<footer class="tagMore1">
+      						<div class="tag_txtc1">
+      							<a href="#">阅读</a>&nbsp;|&nbsp;
+      							<a href="#">评论</a>&nbsp;|&nbsp;
+      							<a href="#">还没有被转载</a>&nbsp;|&nbsp;
+      							<a href="#">收藏</a> 
+      						</div>
+      						<div class="more1">
+      							<span class="smore1">
+      								<a href="#">查看全文&gt;&gt;</a>
+      							</span>
+      						</div>
+      					</footer>
+      				</section>
+                    <div id="SG_page">
+                    	<ul id="SG_pages">
+                    		<li id="SG_pgon" title="当所在页">1</li>
+                    		<li title="跳转至第2页"><a href="#">2</a></li>
+                    		<li title="跳转至第3页"><a href="#">3</a></li>
+                    		<li title="跳转至第4页"><a href="#">4</a></li>
+                    		<li title="跳转至第2页"><a href="#">下一页 &gt;</a></li>
+                    		<li id="SG_pgtt1" title="">共4页</li>
+                    	</ul>
+                    </div>
+
+      			</div>
+      		</div>
+      	</section>
+      </div>
+   </div><!-- blogbody结束 -->
+   <!-- 底部 -->
+   <footer id="blogfooter">
+   	<div>
+   		 <p>版权所有：HTML Web开发工作室&nbsp;&nbsp;Copyright 2005 All Rughts Reserved</p>
+   	</div>
+   	<div>
+   		联系QQ：1241562483；&nbsp;联系电话：15600520022
+   	</div>
+   </footer>
+</div>
+</body>
+</html>

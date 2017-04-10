@@ -1,0 +1,52 @@
+#list1 header h3{
+ font-size: 14px;
+ margin-top: -30px;
+ margin-bottom: 20px;
+}
+#list1 p,#list2 p{
+	line-height: 25px;
+}
+#head h3{
+  margin-top: 15px;
+   font-size: 14px;
+    margin-bottom: 20px;
+}
+#foot{
+	margin: 30px 0;
+	display: block;
+}
+.comment{
+	margin-top: 35px;
+
+}
+
+.comment h3{
+	font-size: 16px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+	background-color: #ccc;
+}
+.comment1{
+	margin-top: 15px;
+}
+.comment1 h3{
+	font-size: 15px;
+	display: inline-block;
+}
+.comment1 span{
+	float: right;
+}
+.comcontent{
+	margin-top: 30px;
+	line-height: 25px;
+}
+.reply{
+	padding-left: 30px;
+}
+.btns{
+
+   padding-bottom: 30px;
+	text-align: center;
+}
+	 
